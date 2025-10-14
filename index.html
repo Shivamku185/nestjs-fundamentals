@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TuteDude Showcase</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to <span>TuteDude</span></h1>
+        <p>Your <strong>one-stop platform</strong> for <em>upskilling</em> and learning.</p>
+        
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#trivia">Trivia</a></li>
+                <li><a href="#extras">Extras</a></li>
+                <li><a href="#feedback">Feedback</a></li>
+            </ul>
+        </nav>
+        
+        <figure>
+            <img src="https://via.placeholder.com/800x300" alt="A hero image representing learning and technology.">
+            <figcaption>Unlock your potential with our expert-led courses.</figcaption>
+        </figure>
+    </header>
+
+    <hr>
+
+    <main>
+        
+        <section id="about">
+            <h2>About TuteDude</h2>
+            <article>
+                <p>TuteDude is a platform designed to help students and professionals <b>grow</b> their skills. We offer a <i>wide variety</i> of courses in different domains, ensuring <u>quality education</u> for everyone.</p>
+                <blockquote>
+                    <p>"An investment in knowledge pays the best interest."</p>
+                    <cite>- Benjamin Franklin</cite>
+                </blockquote>
+            </article>
+        </section>
+
+        <hr>
+
+        <section id="menu">
+            <h2>Our Course Menu</h2>
+            <table border="1" style="width:100%; border-collapse: collapse;">
+                <thead>
+                    <tr>
+                        <th>Course Name</th>
+                        <th>Description</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Web Development</td>
+                        <td>Master HTML, CSS, and JavaScript.</td>
+                        <td>
+                            <table border="1" style="width:100%; border-collapse: collapse;">
+                                <thead>
+                                    <tr>
+                                        <th>Module</th>
+                                        <th>Duration (hrs)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>HTML Basics</td>
+                                        <td>10</td>
+                                    </tr>
+                                    <tr>
+                                        <td>CSS Styling</td>
+                                        <td>15</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Data Science</td>
+                        <td>Learn Python, Pandas, and Matplotlib.</td>
+                        <td>
+                             <table border="1" style="width:100%; border-collapse: collapse;">
+                                <thead>
+                                    <tr>
+                                        <th>Module</th>
+                                        <th>Duration (hrs)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Python Intro</td>
+                                        <td>20</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Data Analysis</td>
+                                        <td>25</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <section id="trivia">
+            <h2>Fun Facts</h2>
+            <aside>
+                <h3>Did you know?</h3>
+                <p>The first-ever website is still online! It was created by Tim Berners-Lee in 1991.</p>
+            </aside>
+        </section>
+        
+        <hr>
+
+        <section id="extras">
+            <h2>Extras</h2>
+            <h3>Hear a testimonial:</h3>
+            <audio controls>
+                <source src="audio_placeholder.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <h3>Watch our introduction:</h3>
+            <video width="320" height="240" controls>
+                <source src="video_placeholder.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <hr>
+        
+        <section id="feedback">
+            <h2>Give Us Your Feedback</h2>
+            <form action="/submit-feedback" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="course">Which course did you like?</label><br>
+                <select id="course" name="course">
+                    <option value="web-dev">Web Development</option>
+                    <option value="data-science">Data Science</option>
+                    <option value="other">Other</option>
+                </select><br><br>
+                
+                <label for="comments">Your Comments:</label><br>
+                <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+                
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <address>
+            Contact us at: <a href="mailto:contact@tutedude.com">contact@tutedude.com</a><br>
+            Visit us at: 123 Learning Lane, Knowledge City
+        </address>
+        <p>&copy; 2025 TuteDude. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
