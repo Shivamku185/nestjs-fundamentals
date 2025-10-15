@@ -36,5 +36,5 @@ This webpage implements the following HTML structures and elements:
 
 ## Author: Shivam Kumar
 
-* **Your Name**
+* **Name**
 * SHIVAM KUMAR *
